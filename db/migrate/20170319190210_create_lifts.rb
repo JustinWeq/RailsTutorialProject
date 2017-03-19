@@ -1,7 +1,7 @@
 class CreateLifts < ActiveRecord::Migration[5.0]
   def change
     create_table :lifts do |t|
-      t.data :date
+      t.date :date
       t.string :liftname
       t.boolean :ismetric
       t.integer :weightlifted
